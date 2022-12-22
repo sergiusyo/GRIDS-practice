@@ -1,0 +1,717 @@
+@media (max-width: 1200px) {
+  .section-courses__time {
+    right: 7%;
+  }
+
+}
+
+
+
+@media (max-width: 992px) {
+  .header {
+    padding: 30px 39px;
+  }
+
+
+  .section-hero {
+    padding: 130px 40px 135px 40px;
+  }
+
+
+  .section-hero__picture {
+    background-image: url("../img/768hero-image.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+  .section-hero__title {
+    padding-top: 0;
+  }
+
+
+  .section-hero__text {
+    width: 345px;
+    margin-bottom: 30px;
+  }
+
+
+  .section-about__top--text {
+    width: 330px;
+    margin-bottom: 0px;
+  }
+
+
+  .section-about__bottom-left {
+    width: 210px;
+  }
+
+  .text__description {
+    margin: 0;
+  }
+
+
+  .section-about {
+    padding: 80px 39px;
+  }
+
+
+  .section-about__bottom--left {
+    flex-direction: column;
+  }
+
+
+  .section-about__bottom--center {
+    flex-direction: column;
+  }
+
+
+  .section-about__bottom--right {
+    flex-direction: column;
+  }
+
+
+  .about-list {
+    padding: 0;
+  }
+
+
+  .section-about__wrapper {
+    flex-direction: column;
+  }
+
+
+  .section-about__icon {
+    margin-bottom: 15px;
+  }
+
+
+  .section-teachers {
+    padding: 80px 39px;
+  }
+
+
+  .section-teachers__list {
+    flex-wrap: wrap;
+    min-height: 892px;
+  }
+
+
+  .section-teachers__list--text {
+    width: 330px;
+  }
+
+
+  .section-teachers__card--1 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/768teachers-1.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--2 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/768teachers-2.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--3 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/768teachers-3.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--4 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/768teachers-4.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+  .section-courses {
+    padding: 80px 39px;
+  }
+
+
+  .courses__image1 {
+    background-image: url("../img/768courses-1.png");
+  }
+
+
+  .courses__image2 {
+    background-image: url("../img/768courses-2.png");
+  }
+
+
+  .courses__image3 {
+    background-image: url("../img/768courses-3.png");
+  }
+
+
+  .courses__image4 {
+    background-image: url("../img/768courses-4.png");
+  }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+  .header {
+    padding: 30px 53px;
+  }
+
+
+  .header__contain {
+    flex-direction: column;
+  }
+
+
+  .header__logo {
+    display: flex;
+    flex-direction: column;
+    width: 94px;
+    margin-bottom: 31px;
+    margin-right: 0;
+  }
+
+
+  .header__list {
+    margin: 0;
+  }
+
+
+  .header__list--item:not(:last-child) {
+    margin-right: 56px;
+  }
+
+
+  .section-hero {
+    padding: 77px 158px 135px 33px;
+  }
+
+
+  .section-about {
+    padding: 80px 33px 60px 33px;
+  }
+
+
+  .section-hero__picture {
+    display: none;
+  }
+
+
+  .section-about__top--title {
+    width: 330px;
+  }
+
+
+  .about-list {
+    flex-wrap: nowrap;
+    padding: 0;
+  }
+
+
+  .about-texture {
+    width: 150px;
+    margin-right: 30px;
+  }
+
+
+  .section-about__text {
+    padding: 0;
+  }
+
+
+  .text__description {
+    margin: 0;
+    width: 150px;
+  }
+
+
+  .section-about__wrapper {
+    flex-direction: column;
+  }
+
+
+  .section-teachers {
+    padding: 80px 33px;
+  }
+
+
+  .section-teachers__list {
+    flex-wrap: wrap;
+    min-height: 940px;
+  }
+
+
+  .section-teachers__list--text {
+    width: 240px;
+  }
+
+
+  .section-teachers__list--title {
+    margin-top: 30px;
+  }
+
+
+  .section-teachers__card--1 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/576_teachers-1.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--2 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/576_teachers-2.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--3 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/576_teachers-3.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--4 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/576_teachers-4.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-courses {
+    padding: 80px 33px;
+  }
+
+
+  .courses__image1 {
+    background-image: url("../img/576courses-1.png");
+  }
+
+
+  .courses__image2 {
+    background-image: url("../img/576courses-2.png");
+  }
+
+
+  .courses__image3 {
+    background-image: url("../img/576courses-3.png");
+  }
+
+
+  .courses__image4 {
+    background-image: url("../img/576courses-4.png");
+  }
+
+
+  .section-courses__time {
+    right: 9%;
+  }
+
+
+  .section-courses__btn {
+    align-self: center;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .header {
+    padding: 32px 15px;
+  }
+
+
+  .header__contain {
+    flex-direction: row-reverse;
+  }
+
+
+  .left {
+    margin-left: 0;
+  }
+
+
+  .burger {
+    position: relative;
+    margin-left: auto;
+    width: 20px;
+    height: 19px;
+    padding: 0;
+  }
+
+
+  .burger__line {
+    position: absolute;
+    right: 0;
+    top: 49%;
+    width: 20px;
+    height: 16%;
+    background-color: white;
+  }
+
+
+  .burger::before,
+  .burger::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+  }
+
+  .burger::before {
+    top: 0;
+  }
+
+
+  .burger::after {
+    bottom: 0;
+  }
+
+
+  .burger__line--active {
+    opacity: 1;
+    height: 0;
+  }
+
+
+  .burger::before {
+    content: "";
+    top: 2px;
+  }
+
+
+  .burger--active:before {
+    content: "";
+    transform: rotate(45deg);
+    top: 50%;
+  }
+
+
+  .burger--active:after {
+    content: "";
+    transform: rotate(-45deg);
+    bottom: auto;
+    top: 50%;
+  }
+
+
+  .stop-scroll {
+    overflow: hidden;
+  }
+
+
+  .header__nav {
+    position: absolute;
+    max-width: 230px;
+    height: 60vh;
+    opacity: 0;
+    padding: 15px 15px;
+    top: 85px;
+    right: 0;
+    z-index: 1000;
+    background-color: #307bdb;
+    transition: opacity .5s ease-in-out;
+  }
+
+
+  .header__nav--active {
+    opacity: 1;
+  }
+
+
+  .header__list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+
+
+  .header__logo {
+    margin-bottom: 0;
+  }
+
+
+  .header__link {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+
+  .header__list--item:not(:last-child) {
+    margin-bottom: 50px;
+  }
+
+  /* HERO */
+  .section-hero {
+    padding: 50px 15px;
+  }
+
+
+  .section-hero__title {
+    width: 226px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+
+  .section-hero__text {
+    width: 290px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 50px;
+  }
+
+
+  .section-hero__btn {
+    width: 213px;
+    height: 60px;
+    padding: 20.5px 53.5px;
+    background: #3F2AFF;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: white;
+  }
+
+
+  .section-about {
+    padding: 50px 15px;
+  }
+
+
+  .section-about__top--title {
+    width: 290px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+
+
+  .section-about__top--text {
+    width: 290px;
+    margin-bottom: 37px;
+  }
+
+
+  .section-about__bottom--list {
+    padding: 0 30px;
+  }
+
+
+  .section-about__img {
+    display: none;
+  }
+
+
+  .about-list {
+    flex-direction: column;
+    padding: 0;
+  }
+
+
+  .section-about__bottom--list {
+    flex-direction: column;
+    padding: 0;
+  }
+
+
+  .section-about__content {
+    flex-direction: column;
+  }
+
+
+  .section-about__bottom--left,
+  .section-about__bottom--center,
+  .section-about__bottom--right {
+    flex-direction: row;
+  }
+
+
+  .text__description {
+    width: 180px;
+    margin: 0;
+    margin-bottom: 42px;
+  }
+
+
+  .section-about__image {
+    margin-top: 0;
+    margin: 0;
+    margin-right: 18px;
+  }
+
+
+  .section-about__wrap {
+    padding: 0;
+  }
+
+
+  .section-teachers {
+    padding: 50px 15px;
+  }
+
+
+  .section-teachers__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+
+  .section-teachers__list {
+    flex-wrap: wrap;
+    min-height: 1550px;
+  }
+
+
+  .section-teachers__list--text {
+    width: 290px;
+  }
+
+
+  .section-teachers__card--1 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/320teachers-1.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--2 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/320teachers-2.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--3 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/320teachers-3.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-teachers__card--4 {
+    max-width: 100%;
+    height: 180px;
+    background-position: center center;
+    background: url("../img/320teachers-4.png");
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
+  }
+
+
+  .section-courses__time {
+    right: 7%;
+  }
+
+
+  .section-courses {
+    padding: 50px 15px;
+  }
+
+
+  .section-courses__card3,
+  .section-courses__card4 {
+    margin-bottom: 30px;
+  }
+
+
+  .section-courses__title {
+    font-size: 20px;
+    line-height: 20px;
+    color: #2E2B44;
+    margin-bottom: 30px;
+  }
+
+
+  .section-courses__btn {
+    align-self: flex-start;
+  }
+
+
+  .courses__image1 {
+    background-image: url("../img/320courses-1.png");
+  }
+
+
+  .courses__image2 {
+    background-image: url("../img/320courses-2.png");
+  }
+
+
+  .courses__image3 {
+    background-image: url("../img/320courses-3.png");
+  }
+
+
+  .courses__image4 {
+    background-image: url("../img/320courses-4.png");
+  }
+
+
+  .footer__container {
+    padding: 30px 30px;
+    height: 80px;
+    align-items: center;
+  }
+
+}
